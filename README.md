@@ -1,6 +1,8 @@
 # SVP lire sinon bah c'est dommage hein
 
-Salut et merci de venir jeter un coup d'oeuil ! Ici je publierai de temps en temps une nouvelle version de mon jeu, lorsque les changements seront significatifs et stables.
+Salut et merci de venir jeter un coup d'oeil ! Ici je publierai de temps en temps une nouvelle version de mon jeu, lorsque les changements seront significatifs et stables.
+
+Le jeu est jouable au clavier ou à la manette (va voir les contrôles dans le jeu par pitié), mais je conseille fortement de jouer manette si possible. Il sera bien plus facile de naviguer avec précision dans les airs.
 
 Histoire de ne pas être perdu, voici un ptit résumé pour un peu mieux comprendre le contenu de ce dossier !
 
@@ -18,7 +20,28 @@ Histoire de ne pas être perdu, voici un ptit résumé pour un peu mieux compren
 -> TOUT LE RESTE concernent les ressources nécessaire au fonctionnement de Unity, t'y trouveras rien de spécial...
 
 
+Par rapport aux temps à battre, la variation de difficulté est la suivante : modéré -> difficile/expert -> hardcode/grandmaster. Il n'est absolument pas nécessaire de les battre pour avancer, tout dépend du niveau de tryhard visé (si tu bas le troisième je serai chokbar de bz). Ils sont affichés en dessous du titre des niveaux.
+
+
 Partant de zéro sur Unity et le dev en général, ne t'attend pas à un jeu AAA sisi ta kpé. En revanche tout commentaire est le bienvenu !
 
 
 Et sur ce, bon jeu !
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+P.S : Notes, corrections et ajouts à venir (si j'y arrive...), ce qui est noté fait est garanti dans la prochaine MAJ:
+
+--> Ajout du monde 4 (forêt), avec teleporters.
+
+- Augmentation du rayon de détection des interrupteurs (fait !)
+
+- Conservation du boost et de la direction (clavier) après une mort.
+
+- (MAYBE) Ajout d'un menu récapitulatif des temps pour chaque monde.
+
+- (MAYBE) Ajout du descriptif des techniques avancées ingame.
+
+- (MAYBE) Ajout d'un compteur de mort.
+
+- (BIEN PLUS TARD) Le son bordel !
