@@ -143,7 +143,7 @@ PATCH NOTE (0.4.0) :
     - Amélioration du menu de fin de niveau : il affiche le PB, ainsi que les temps de références à gauche (meilleur battu) et à 
     droite (moins bon à battre). Plus besoin de sortir d'un niveau pour le voir !
 
-    J'ai pas activé le monde 4 dans le fichier "_SaveTimeExtra" oups ! Faudra juste changer une valeur de 0 à 1 ligne 116.
+    - Correction mineure de certains sprites.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
