@@ -4,6 +4,8 @@ Salut et merci de venir jeter un coup d'oeil ! Ici je publierai de temps en temp
 
 Le jeu est jouable au clavier ou à la manette (va voir les contrôles dans le jeu par pitié), mais je conseille fortement de jouer manette si possible. Il sera bien plus facile de naviguer avec précision dans les airs.
 
+WARNING : Si tu clone le répertoire, pense à garder sa save de côté avant de pull. Ça pourrait l'écraser.
+
 Histoire de ne pas être perdu, voici un ptit résumé pour un peu mieux comprendre le contenu de ce dossier !
 
 
@@ -114,66 +116,37 @@ FAQ :
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-PATCH NOTE (0.5.1) :
+PATCH NOTE (0.5.2) :
 
-    --> Ajout du monde 5 (forêtV2 un peu mdr), avec ennemis et patterns !
+    --> Ajout du monde 5 (forêtV2 un peu mdr), avec ennemis et patterns ! (ver 0.5.0)
 
-    - Création du manuel (avec que 3 entrées pour l'instant).
+    - Mise en place du système de replays (beta je pense). Disponible dans les Extras !
 
-    - Création du stratbook (avec 32 strats). Permet de lister et documenter chaque techniques et mécaniques découvertes. Un gif de 4 
-    frames illustre l'exécution avec les inputs associés.
+    - Correction de la vitesse des ennemis rouges.
 
-    - Correction des bugs visuels (lignes lors de mouvements).
+    - Ajout d'un bouton pour recommencer un niveau (voir les contrôles).
 
     - Rebalance des stages :
 
       ~ Buffed : 
 	
-	-> 1-18 SWITCHING SIDE (kinda)
-
-	-> 4-1 LANDING SOMEWHERE (kinda)
-
-	-> 6-1 UPWARDS
-
-	-> 6-2 RED CANYON
+	Bah techniquement vu que ya plus le bug des ennemis super lents bah certains niveaux sont plus durs mais bon ça compte pas.
 
       ~ Nerfed : 
 	
-	-> 1-5 STAR GLARE
-
-	-> 1-6 DEZOOM
-	
-	-> 1-24 SPEEDWAY
-
-	-> 2-22 ABOVE ME !
-
 	-> 5-8 FULL DETOUR
+
+	-> 5-9 SOLID ROCK
+
+	-> 5-19 MERGE AND SPLIT
+
+	-> 5-25 TREE OF LIFE
 
       ~ Times (gold) : 
 
-	-> 1-5 STAR GLARE : 2,98 -> 2,39
+	-> 5-2 BIGSAI : 2,36 -> 1,93
 
-	-> 2-1 TINY CAVITY : 5,74 -> 5,64
-
-	-> 2-12 OBSIDIAN PILLARS : 8,40 -> 8,17
-
-	-> 2-21 THE BURROW : 12,02 -> 11,66
-	
-	-> 3-4 FULL WAVING : 4,55 -> 4,50
-
-	-> 3-16 MONO SKIP ? : 4,36 -> 3,80
-
-	-> 6-4 THE LOOPHOLE : 8,58 -> 8,00
-
-	-> 6-6 BUDDY ! : 13,32 -> 8,65 (HUGE SKIP)
-
-	-> 6-8 SEEING DOUBLE : 7,58 -> 6,66
-
-	-> 11-3 INDIGO SKY : 5,52 -> 5,14
-
-	-> 11-7 DECAYED: 8,50 -> 8,08
-
-	-> 11-9 CORNERSTONE : 9,14 -> 7,96
+	-> 11-4 THE REPULSOR : 5,33 -> 5,23
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
