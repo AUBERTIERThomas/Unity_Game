@@ -25,9 +25,9 @@ Histoire de ne pas être perdu, voici un ptit résumé pour un peu mieux compren
     -> Le fichier "Credits" contient la liste des ressources externes (mais libres de droit) qui sont utilisées dans le jeu. J'essaie 
     de limiter leur usage.
 
-    -> Le fichier "InGameTechList" est écrit avec le fion, mais liste toutes les techniques connues utilisables en jeu pour optimiser
-    les déplacements. À aucun moment il n'est requis de les connaître pour finir les niveaux. C'est juste pour les puants ! Il est 
-    plus très à jour d'ailleurs...
+    -> Le dossier "_ReplayFiles" contient les replays engegistrés par le joueur sous format .txt. Ya les inputs et les positions du 
+    joueur pendant la run. Les miens commencent par "DEV". Ils sont accessibles en jeu, donc pas besoin à priori de les ouvrir comme
+    ça, à moins que tu veuilles faire du TAS mdr.
 
     -> TOUT LE RESTE concernent les ressources nécessaire au fonctionnement de Unity, t'y trouveras rien de spécial...
 
@@ -116,37 +116,33 @@ FAQ :
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-PATCH NOTE (0.5.2) :
+PATCH NOTE (0.5.3) :
 
     --> Ajout du monde 5 (forêtV2 un peu mdr), avec ennemis et patterns ! (ver 0.5.0)
 
-    - Mise en place du système de replays (beta je pense). Disponible dans les Extras !
+    - Debug des stages 11-4, 6-8
 
-    - Correction de la vitesse des ennemis rouges.
+    - Les niveaux X-25 chargeaient les niveaux (X+1)-1 (plus mtn)
 
-    - Ajout d'un bouton pour recommencer un niveau (voir les contrôles).
+    - Décoration du monde 3 (éléments animés)
+
+    - 5-8 devient difficulté 5 (fallait bien assumer)
 
     - Rebalance des stages :
 
       ~ Buffed : 
 	
-	Bah techniquement vu que ya plus le bug des ennemis super lents bah certains niveaux sont plus durs mais bon ça compte pas.
+	
 
       ~ Nerfed : 
 	
-	-> 5-8 FULL DETOUR
-
-	-> 5-9 SOLID ROCK
-
-	-> 5-19 MERGE AND SPLIT
-
-	-> 5-25 TREE OF LIFE
+	
 
       ~ Times (gold) : 
 
-	-> 5-2 BIGSAI : 2,36 -> 1,93
+	-> 3-10 VACUUM BUBBLES : 16,72 -> 16,33
 
-	-> 11-4 THE REPULSOR : 5,33 -> 5,23
+	-> 5-11 FELLOWS FOLLOW : 8,90 -> 8,02
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -157,10 +153,6 @@ P.S : Notes, corrections et ajouts à venir (si j'y arrive...):
     - Relative refonte graphique des mondes 1 à 3.
     
     - Conservation du boost et de la direction (clavier) après une mort.
-
-    - Mise en place d'un système de replay pour les meilleurs runs.
-
-    - Refaire mon code de mort (littéralement) qui pue sa grand-mère.
     
     - (MAYBE) Ajout d'un menu récapitulatif des temps pour chaque monde.
     
