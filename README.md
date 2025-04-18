@@ -44,7 +44,7 @@ Et sur ce, bon jeu !
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-FAQ :
+# FAQ :
 
 -> Depuis combien de temps tu bosses dessus ?
 
@@ -116,46 +116,82 @@ FAQ :
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-PATCH NOTE (0.5.3) :
+# PATCH NOTE (0.6.0) :
 
-    --> Ajout du monde 5 (forêtV2 un peu mdr), avec ennemis et patterns ! (ver 0.5.0)
+    --> Continuation du monde 6 (montagne), avec les doubles ? (15 niveaux)
 
-    - Debug des stages 11-4, 6-8
+    - Debug du stage 3-22 (CP)
 
-    - Les niveaux X-25 chargeaient les niveaux (X+1)-1 (plus mtn)
+    - Correction des replays (à 99%)
 
-    - Décoration du monde 3 (éléments animés)
+    - Ajout des touches pendant les replays
 
-    - 5-8 devient difficulté 5 (fallait bien assumer)
+    - Décoration des stages (monde 6) déjà existants
+
+    - Amélioration du manu des replays
+
+    - Ajout de 3 entrées dans le guide
+
+    - Réparation des menus des extras (le bug demeure inconnu à ce jour...)
 
     - Rebalance des stages :
 
       ~ Buffed : 
 	
+	-> 6-5 MINE VEIN (petit)
 	
 
       ~ Nerfed : 
 	
+	-> 6-8 SEEING DOUBLE (petit)
 	
 
-      ~ Times (gold) : 
+      ~ Times : 
 
-	-> 3-10 VACUUM BUBBLES : 16,72 -> 16,33
+	-> 1-24 SPEEDWAY : 7,46 -> 7,43
 
-	-> 5-11 FELLOWS FOLLOW : 8,90 -> 8,02
+	-> 3-12 NEED OXYGEN : 12,88 -> 12,26
+
+	-> 5-18 ONE JUMP : 2,17 -> 2,15
+
+	-> 6-1 UPWARDS : 2,82 -> 2,79
+
+	-> 6-3 THE FAR CLIFF : 14,80 -> 13,93
+
+	-> 6-3 THE FAR CLIFF (bronze) : 23,50 -> 21,50
+
+	-> 6-4 THE LOOPHOLE (silver) : 9,60 -> 9,20
+
+	-> 6-4 THE LOOPHOLE (bronze) : 13,00 -> 12,00
+
+	-> 6-5 MINE VEIN (bronze) : 10,50 -> 10,00
+
+	-> 6-6 BUDDY ! (bronze) : 25,00 -> 18,00
+
+	-> 6-6 BUDDY ! (silver) : 16,70 -> 13,70
+
+	-> 6-7 SPIKE SHIELD (silver) : 15,00 -> 12,00
+
+	-> 6-7 SPIKE SHIELD (bronze) : 21,00 -> 17,50
+
+	-> 6-24 NO DANGER (bronze) : 25,00 -> 17,50
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-P.S : Notes, corrections et ajouts à venir (si j'y arrive...):
+# P.S : Notes, corrections et ajouts à venir (si j'y arrive...):
 
     --> Complétion du monde 6 (montagne), où je vais ENFIN pouvoir me défouler sur les walljumps la joie.
 
     - Relative refonte graphique des mondes 1 à 3.
     
     - Conservation du boost et de la direction (clavier) après une mort.
+
+    - Menu des statistiques avec notamment :
     
-    - (MAYBE) Ajout d'un menu récapitulatif des temps pour chaque monde.
+        - (MAYBE) Ajout d'un menu récapitulatif des temps pour chaque monde.
     
-    - (MAYBE) Ajout d'un compteur de mort.
+        - (MAYBE) Ajout d'un compteur de mort.
+
+        - Affichage du pourcentage de progression général.
     
     - (BIEN PLUS TARD) Le son bordel !
