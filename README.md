@@ -116,65 +116,37 @@ Et sur ce, bon jeu !
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-# PATCH NOTE (0.6.0) :
+# PATCH NOTE (0.6.1) :
 
-    --> Continuation du monde 6 (montagne), avec les doubles ? (15 niveaux)
+    --> Continuation du monde 6 (montagne), avec les doubles ? (19 niveaux)
 
-    - Debug du stage 3-22 (CP)
+    - [DEBUG] 2-18 : Les CPs étaient esquivables, triche au respawn possible
 
-    - Correction des replays (à 99%)
+    - [DEBUG] 11-2 : Les murs de switch ne tuaient pas
 
-    - Ajout des touches pendant les replays
+    - [DEBUG] 11-6 : Softlock possible en CP mode réglé
 
-    - Décoration des stages (monde 6) déjà existants
+    - [DEBUG] 6-6/7/8 : La première position en CP mode était commune à tous les persos
 
-    - Amélioration du manu des replays
+    - [DEBUG] 6-13 : CP inexistant réglé
 
-    - Ajout de 3 entrées dans le guide
-
-    - Réparation des menus des extras (le bug demeure inconnu à ce jour...)
+    - 6-9 + : Ajout d'herbe sur les serpentins de pierre
 
     - Rebalance des stages :
 
       ~ Buffed : 
 	
-	-> 6-5 MINE VEIN (petit)
+	
 	
 
       ~ Nerfed : 
 	
-	-> 6-8 SEEING DOUBLE (petit)
+	
 	
 
       ~ Times : 
 
-	-> 1-24 SPEEDWAY : 7,46 -> 7,43
-
-	-> 3-12 NEED OXYGEN : 12,88 -> 12,26
-
-	-> 5-18 ONE JUMP : 2,17 -> 2,15
-
-	-> 6-1 UPWARDS : 2,82 -> 2,79
-
-	-> 6-3 THE FAR CLIFF : 14,80 -> 13,93
-
-	-> 6-3 THE FAR CLIFF (bronze) : 23,50 -> 21,50
-
-	-> 6-4 THE LOOPHOLE (silver) : 9,60 -> 9,20
-
-	-> 6-4 THE LOOPHOLE (bronze) : 13,00 -> 12,00
-
-	-> 6-5 MINE VEIN (bronze) : 10,50 -> 10,00
-
-	-> 6-6 BUDDY ! (bronze) : 25,00 -> 18,00
-
-	-> 6-6 BUDDY ! (silver) : 16,70 -> 13,70
-
-	-> 6-7 SPIKE SHIELD (silver) : 15,00 -> 12,00
-
-	-> 6-7 SPIKE SHIELD (bronze) : 21,00 -> 17,50
-
-	-> 6-24 NO DANGER (bronze) : 25,00 -> 17,50
+	-> 4-17 A MAZING : 10,97 -> 10,76
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
