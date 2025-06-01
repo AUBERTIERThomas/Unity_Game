@@ -116,21 +116,14 @@ Et sur ce, bon jeu !
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-# PATCH NOTE (0.6.1) :
+# PATCH NOTE (0.6.2) :
 
-    --> Continuation du monde 6 (montagne), avec les doubles ? (19 niveaux)
+    --> Continuation du monde 6 (montagne), avec les doubles ? (23 niveaux)
 
-    - [DEBUG] 2-18 : Les CPs étaient esquivables, triche au respawn possible
+    - [DEBUG] 6-17 : CP inexistant réglé
 
-    - [DEBUG] 11-2 : Les murs de switch ne tuaient pas
+    - Options : changement fullscreen/windowed (pas encore fonctionnel)
 
-    - [DEBUG] 11-6 : Softlock possible en CP mode réglé
-
-    - [DEBUG] 6-6/7/8 : La première position en CP mode était commune à tous les persos
-
-    - [DEBUG] 6-13 : CP inexistant réglé
-
-    - 6-9 + : Ajout d'herbe sur les serpentins de pierre
 
     - Rebalance des stages :
 
@@ -146,7 +139,9 @@ Et sur ce, bon jeu !
 
       ~ Times : 
 
-	-> 4-17 A MAZING : 10,97 -> 10,76
+	-> 1-4 SUPERBLOCK : 3,60 -> 3,49
+
+	-> 2-25 END OF BIOME : 8,98 -> 8,33
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
