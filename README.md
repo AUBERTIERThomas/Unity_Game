@@ -6,6 +6,8 @@ Le jeu est jouable au clavier ou à la manette (va voir les contrôles dans le j
 
 WARNING : Si tu clone le répertoire, pense à garder sa save de côté avant de pull. Ça pourrait l'écraser.
 
+(0.6.3) : POUR LA COMPATIBILITE DES ANCIENNES SAVES, METTRE UN "1" AUX LIGNES 693 ET 694 !
+
 Histoire de ne pas être perdu, voici un ptit résumé pour un peu mieux comprendre le contenu de ce dossier !
 
 
@@ -116,13 +118,17 @@ Et sur ce, bon jeu !
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-# PATCH NOTE (0.6.2) :
+# PATCH NOTE (0.6.3) :
 
-    --> Continuation du monde 6 (montagne), avec les doubles ? (23 niveaux)
+    --> Fin du level design monde 6 (montagne), avec les doubles ? (25 niveaux)
 
-    - [DEBUG] 6-17 : CP inexistant réglé
+    - Un fond animé (encore au moins deux à faire + thumbnail)
 
-    - Options : changement fullscreen/windowed (pas encore fonctionnel)
+    - [DEBUG] 4-9 : CP gênant changé
+
+    - [DEBUG] Le bouton de respawn CP était actif en mode classique (merci @TritamDuNeufTrois as always)
+
+    - La position du curseur est initialisé sur le bouton du monde / niveau actif (et non le premier)
 
 
     - Rebalance des stages :
@@ -134,20 +140,19 @@ Et sur ce, bon jeu !
 
       ~ Nerfed : 
 	
-	
+	-> 6-21 OLD ICE PATH (fort)
 	
 
       ~ Times : 
 
-	-> 1-4 SUPERBLOCK : 3,60 -> 3,49
+	-> 5-25 TREE OF LIFE : 15,53 -> 14,20
 
-	-> 2-25 END OF BIOME : 8,98 -> 8,33
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 # P.S : Notes, corrections et ajouts à venir (si j'y arrive...):
 
-    --> Complétion du monde 6 (montagne), où je vais ENFIN pouvoir me défouler sur les walljumps la joie.
+    --> Commencer le monde 7 (sommet/glace), avec de la glace (et oui) et peut-être une surprise qui sait ?
 
     - Relative refonte graphique des mondes 1 à 3.
     
@@ -162,3 +167,5 @@ Et sur ce, bon jeu !
         - Affichage du pourcentage de progression général.
     
     - (BIEN PLUS TARD) Le son bordel !
+
+    - (SI JE VEUX MOURIR) Multijoueur avec des maps adaptées.
