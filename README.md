@@ -118,11 +118,11 @@ Et sur ce, bon jeu !
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-# PATCH NOTE (0.6.3) :
+# PATCH NOTE (0.6.4) :
 
     --> Fin du level design monde 6 (montagne), avec les doubles ? (25 niveaux)
 
-    - Un fond animé (encore au moins deux à faire + thumbnail)
+    - 4 fonds animés + le carré
 
     - [DEBUG] 4-9 : CP gênant changé
 
@@ -140,12 +140,24 @@ Et sur ce, bon jeu !
 
       ~ Nerfed : 
 	
-	-> 6-21 OLD ICE PATH (fort)
+	
 	
 
       ~ Times : 
 
-	-> 5-25 TREE OF LIFE : 15,53 -> 14,20
+	-> 1-3 THE SUNSET : 2,58 -> 2,45
+
+        -> 1-11 DIRTY CLIFFS : 4,20 -> 4,02 (pas moi)
+
+        -> 1-15 HURDLES : 5,06 -> 3,58
+
+        -> 1-16 GRASSLAND : 7,76 -> 7,58
+
+        -> 1-24 SPEEDWAY : 7,43 -> 7,16
+
+        -> 1-25 ONE DOWN : 5,24 -> 5,08
+
+        -> 6-25 TO THE STARS ! : 15,53 -> 14,20
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------
