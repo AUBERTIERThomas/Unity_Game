@@ -118,17 +118,19 @@ Et sur ce, bon jeu !
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-# PATCH NOTE (0.6.4) :
+# PATCH NOTE (0.7.0) :
 
-    --> Fin du level design monde 6 (montagne), avec les doubles ? (25 niveaux)
+    --> Début du level design monde 7 (sommet/glace), avec de la glace, des nouveaux TPs et une deuxième dimension ??! (9 niveaux)
 
-    - 4 fonds animés + le carré
+    - Les fonds sont temporaires et servent aux tests
 
-    - [DEBUG] 4-9 : CP gênant changé
+    - [DEBUG] 11-6 : Plus d'eau rouge bugué
 
-    - [DEBUG] Le bouton de respawn CP était actif en mode classique (merci @TritamDuNeufTrois as always)
+    - [DEBUG] 6-22 : CPs inexistants
 
-    - La position du curseur est initialisé sur le bouton du monde / niveau actif (et non le premier)
+    - Ajout d'écureils dans certains stages (décor) avec un easter egg possible manette.
+
+    - Nerf de plusieurs temps argent du monde 2. Pourra être renforcé si pas suffisant
 
 
     - Rebalance des stages :
@@ -145,26 +147,26 @@ Et sur ce, bon jeu !
 
       ~ Times : 
 
-	-> 1-3 THE SUNSET : 2,58 -> 2,45
+	-> 1-21 FLAT EARTH (silver) : 6,20 -> 5,90
 
-        -> 1-11 DIRTY CLIFFS : 4,20 -> 4,02 (pas moi)
+        -> 2-14 BARREN CACHE (bronze) : 11,50 -> 12,50
 
-        -> 1-15 HURDLES : 5,06 -> 3,58
+        -> 2-14 BARREN CACHE (silver) : 8,80 -> 10,40
 
-        -> 1-16 GRASSLAND : 7,76 -> 7,58
+        -> 2-19 GOLD DIGGER (silver) : 15,00 -> 14,00
 
-        -> 1-24 SPEEDWAY : 7,43 -> 7,16
+        -> 2-20 ZEBRA (silver) : 6,80 -> 6,90
 
-        -> 1-25 ONE DOWN : 5,24 -> 5,08
+        -> 2-21 THE BURROW (silver) : 6,10 -> 6,20
 
-        -> 6-25 TO THE STARS ! : 15,53 -> 14,20
+        -> 4-23 NARROW GROW : 9,36 -> 9,20
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 # P.S : Notes, corrections et ajouts à venir (si j'y arrive...):
 
-    --> Commencer le monde 7 (sommet/glace), avec de la glace (et oui) et peut-être une surprise qui sait ?
+    --> Continuer le monde 7 (sommet/glace), avec de la glace (et oui) et peut-être une surprise qui sait ?
 
     - Relative refonte graphique des mondes 1 à 3.
     
