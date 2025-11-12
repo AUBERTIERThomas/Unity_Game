@@ -6,7 +6,7 @@ Le jeu est jouable au clavier ou à la manette (va voir les contrôles dans le j
 
 WARNING : Si tu clone le répertoire, pense à garder sa save de côté avant de pull. Ça pourrait l'écraser.
 
-(0.7.1) : POUR LA COMPATIBILITE DES ANCIENNES SAVES, METTRE UN "1"/"2" A LA LIGNE 695 ET A TOUS LES MULTIPLES DE 30 + "0" AUX LIGNES JUSTE AVANT !
+(0.7.2) : POUR LA COMPATIBILITE DES ANCIENNES SAVES, METTRE UN "1"/"2"/"23"s A LA LIGNE 695 ET A TOUS LES MULTIPLES DE 30 + "0" AUX LIGNES JUSTE AVANT !
 
 Histoire de ne pas être perdu, voici un ptit résumé pour un peu mieux comprendre le contenu de ce dossier !
 
@@ -118,15 +118,13 @@ Et sur ce, bon jeu !
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-# PATCH NOTE (0.7.1) :
+# PATCH NOTE (0.7.2) :
 
-    --> Continuation du level design monde 7 (sommet/glace), avec de la glace, des nouveaux TPs et une deuxième dimension ??! (13 niveaux)
+    --> Continuation du level design monde 7 (sommet/glace), avec de la glace, des nouveaux TPs et une deuxième dimension ??! (16 niveaux)
 
     - Les fonds sont temporaires et servent aux tests
-
-    - [DEBUG] 7-7 : Un des murs à piques ne tuait pas
     
-    - Pour la première fois en exclusivité, de la musique ???!!!?? (une est "finie", l'autre est en démo) : UPDATE les fichiers de save !
+    - Pour la première fois en exclusivité, de la musique ???!!!?? (deux sont "finies", l'autre est en démo) : UPDATE les fichiers de save !
 
 
     - Rebalance des stages :
@@ -138,18 +136,16 @@ Et sur ce, bon jeu !
 
       ~ Nerfed : 
 	
-	
+	7-13 OUTPOST OF THE FLOE
 	
 
       ~ Times : 
 
-	7-9 DUALITY : 12,00 -> 9,07 (oubli)
+	1-11 DIRTY CLIFFS : 4,02 -> 4,00 (@Tritam)
 	
 	- Nouvelles musiques
 	
-	    - [1b - A Very Peculiar Ball]
-	    
-	    - [1a - Falling Autumn] (DEMO)
+	    - [8b - Scattered Fragments]
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------
