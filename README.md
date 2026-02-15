@@ -118,14 +118,21 @@ Et sur ce, bon jeu !
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-# PATCH NOTE (0.7.2) :
+# PATCH NOTE (0.7.3) :
 
-    --> Continuation du level design monde 7 (sommet/glace), avec de la glace, des nouveaux TPs et une deuxième dimension ??! (16 niveaux)
+    --> Continuation du level design monde 7 (sommet/glace), avec de la glace, des nouveaux TPs et une deuxième dimension ??! (20 niveaux)
 
     - Les fonds sont temporaires et servent aux tests
     
-    - Pour la première fois en exclusivité, de la musique ???!!!?? (deux sont "finies", l'autre est en démo) : UPDATE les fichiers de save !
-
+    - Pour la première fois en exclusivité, de la musique ???!!!?? (deux sont "finies", l'autre est en démo)
+    
+    - Ajout d'un fichier "_PlayerSettings.txt" pour les paramètres du jeu, pas de la save. En l'occurence, le choix des musiques est fait dedans et plus besoin de modif l'autre avec les temps. Dans les Options il y a "Musics" pour choisir quelle musique associer à quel monde. Bon yen a tjrs aussi peu, si le choix n'existe pas encore ça va pas marcher.
+    
+    - Ajout du menu Stats !!!  On y trouve "Completion" pour un pourcentage global de progression (concerne le jeu aboutit, actuellement dépasse pas les 30%). Aussi "Achievements" qui répertorie quelques milestones de la progression avec du texte à la con. La ligne 7 est pas encore implémentée.
+    
+    - Ajout d'un contour sur les téléporters de dimension
+    
+    - Niveau 21-1 en démo !
 
     - Rebalance des stages :
 
@@ -136,16 +143,22 @@ Et sur ce, bon jeu !
 
       ~ Nerfed : 
 	
-	7-13 OUTPOST OF THE FLOE
+	
 	
 
       ~ Times : 
 
-	1-11 DIRTY CLIFFS : 4,02 -> 4,00 (@Tritam)
+	1-1 INT MAIN : 2,00 -> 1,82
+
+	1-2 OH NO SPIKES ! : 1,39 -> 1,32 (@Tritam + me)
+
+	1-3 THE SUNSET : 2,45 -> 2,37
+
+	1-4 SUPERBLOCK : 3,49 -> 3,39
 	
 	- Nouvelles musiques
 	
-	    - [8b - Scattered Fragments]
+	    - no
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------
@@ -164,8 +177,6 @@ Et sur ce, bon jeu !
 
         - (MAYBE) Ajout d'un compteur de mort.
 
-        - Affichage du pourcentage de progression général.
-
-    - (BIEN PLUS TARD) Le son bordel !
+    - (EN CONTINU) Les SFX et plus de musique
 
     - (SI JE VEUX MOURIR) Multijoueur avec des maps adaptées.
