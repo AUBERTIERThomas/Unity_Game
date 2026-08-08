@@ -1,3 +1,14 @@
-Original PlayerMovement : DawnosaurDev (youtube.com/c/DawnosaurStudios)
+Developped by Thomas "popivron" Aubertier, 2024-202X
+
+-------------------------------------------
+
+EXTERNAL RESSOURCES :
+Original PlayerMovement code : DawnosaurDev (youtube.com/c/DawnosaurStudios)
 Keyboard/Controller input sprites : juliocacko (https://juliocacko.itch.io/free-input-prompts)
- 
+*Various contributors on Unity related forums for some pieces of code*
+
+-------------------------------------------
+
+SPECIAL THANKS :
+Pascal "Tritam" Pham | Testing/Hunting and continued support (+3 levels !)
+Victor "HipsterCow" Regard | Advices for softwares
