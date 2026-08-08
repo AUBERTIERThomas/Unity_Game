@@ -126,20 +126,6 @@ Et sur ce, bon jeu !
     
 - Niveau 21-1 en démo ! (je garde l'info au cas où)
 
-- Pour la première fois en exclusivité, de la musique ???!!!?? (deux sont "finies", l'autre est en démo)
-
-- Ajout d'un fichier `_PlayerSettings` pour les paramètres du jeu, pas de la save. En l'occurence, le choix des musiques est fait dedans et plus besoin de modif l'autre avec les temps. Dans les Options il y a "Musics" pour choisir quelle musique associer à quel monde. Bon yen a tjrs aussi peu, si le choix n'existe pas encore ça va pas marcher.
-
-- Ajout du menu Stats !!!  On y trouve :
-
-   - "Completion" pour un pourcentage global de progression (concerne le jeu aboutit, actuellement dépasse pas les 30%).
- 
-   - "Achievements" qui répertorie quelques milestones de la progression avec du texte à la con. La ligne 7 est pas encore implémentée.
-
-- Ajout d'un contour sur les téléporters de dimension pour ne pas les confondre
-
-- Niveau `21-1` en démo !
-
 - Rebalance des stages :
 
   - Buffed : 
