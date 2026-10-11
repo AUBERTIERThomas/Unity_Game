@@ -117,17 +117,15 @@ Et sur ce, bon jeu !
 
 # PATCH NOTE (0.8.0) :
 
---> Début du level design monde 8 (caverne), avec deux layers de murs, des fleurs (inutiles), et une technique existant depuis le début ;) (10 niveaux)
+--> Début du level design monde 8 (caverne), avec deux layers de murs, des fleurs (inutiles), de l'antigravité et une technique existant depuis le début ;) (15 niveaux)
 
-- (Je l'espère) correction des bugs visuels linéaires sur les tilemaps depuis le monde 5 (reviendra ds le futur probablement, devra être mis à jour souvent).
+- La mort a été refaite ! Conservation des touches + probable petite opti en performances ! Il a fallu que 2.5 ans ça vaaaaaa...
+Attention, il y a beaucoup de bugs potentiels qui peuvent être créés, j'en ai patch pas mal je croise les doigts.
+A à priori automatiquement corrigé le bug qui pouvait soft lock le jeu après une mort.
 
-- Variabilisation du temps de respawn, parce que 0.1 c'est un peu abusé quand même ! Deux temps différents
+- Fix d'un bug retirant le release du saut quand on frole un coin (lui aussi il cassait bien les *producteurs de spermatozoïdes*).
 
-    - Pré-respawn : temps d'arrêt au moment de la mort. Défaut 0,3s ; défini ligne 50 `_PlayerSettings.txt`.
-
-    - Post-respawn : délai lors du respawn. Défaut 0,5s ; défini ligne 51 `_PlayerSettings.txt`.
-
-- Correction de la police sur l'écran des Controls.
+- Correction de la thumbnail dans les replays.
 
 - Rebalance des stages :
 
@@ -136,32 +134,27 @@ Et sur ce, bon jeu !
 
   - Nerfed : 
 	
-    - 7-21 FREEZE BREEZE (traits d'eau de sécurité)
-
-    - 7-25 INSIDE THE SUMMIT (eau de fin en 2x1)
 
   - Times : 
 
-	
-  - Nouvelles musiques
-
-    - no
 
 - Debug :
 
-  - 5-23 FAST AS FUCK (le switch a les couleurs inversées)
+    - 7-14 BIOSPHERE (fond animé)
 
-  - 7-22 CRYOMANCY (les TPs ne respawn pas correctement en mode CP)
+- Nouvelles musiques
+
+    - no
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 # P.S : Notes, corrections et ajouts à venir (si j'y arrive...):
 
---> Continuer le monde 8 (caverne), et je sais pas encore avec quoi ?
+--> Continuer le monde 8 (caverne), et oui j'ai rien à dire poto
 
 - Relative refonte graphique des mondes 1 à 2.
 
-- Conservation du boost et de la direction (clavier) après une mort.
+- Conservation du boost et de la direction (clavier) après une mort : DOOOOOOOONNEEEEEEE !
 
 - Menu des statistiques avec notamment :
 
